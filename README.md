@@ -1,5 +1,8 @@
 ﻿# 掘金自动签到脚本
 
+- npm run start   开始自动签到
+
+- npm run server  启动登录滑块验证服务
 
 ## 代码结构说明
 - service： 登录滑块认证服务
@@ -12,9 +15,11 @@
 
 ## 使用说明 config.js
 
-LOGIN_USER 登录账号密码
-EMAIL_RECEIVER 签到接受短信接受邮箱
-SERVER_URI 登录验证服务器地址
+- LOGIN_USER 登录账号密码
+
+- EMAIL_RECEIVER 签到接受短信接受邮箱
+
+- SERVER_URI 登录验证服务器地址
 
 
 ## TODO
